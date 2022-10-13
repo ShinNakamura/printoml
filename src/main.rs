@@ -7,7 +7,7 @@ use std::collections::HashMap;
 fn main() {
     let args: Vec<String> = env::args().collect();
     if args.len() < 3 {
-        println!("need TOML and key(s)");
+        println!("need TOML and key");
         return;
     }
     let conf = &args[1];
